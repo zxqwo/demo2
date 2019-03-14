@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+ <project name="myweb"  default="fabu" basedir="."> 
+<property name="classes" value="build/classes"/>   
+  <property name="build" value="build"/>    
+ <property name="lib" value="WebContent/WEB-INF/lib"/> 
+ <property name="webserver" value="E:\hostd\webapps"/> 
+    <!-- 建立build/classes路径，并编译class文件到build/classes路径下-->    
+ <target name="compile" depends="">      
+  <mkdir dir="${classes}"/>
+       <javac srcdir="src" destdir="${classes}" includeantruntime="on"/>     
+</target>
+  	    <target name="come" depends="compile">
+  	    	<javac srcdir="src" destdir="build" includeantruntime="on"/>
+  		 	 </target>
+  		 <target name="run" depends="come">
+  		 <java classname="a">
+  		 <classpath>
+  		 <pathelement path="build"/>
+  		 </classpath>
+  		 </java>
+  		 </target>
+  		 <!-- <manifest>
+  		 <attribute name="like" value="a"/>
+  		 </manifest>-->
+		 </target>
+ 	<!--复制生成的war文件至tomcat下-->
+ 	<target name="fabu" depends="war" description="发布">
+ 	   <copy file="${build}/myweb.war" todir="${webserver}" overwrite="true">
+ 	   </copy>
+ 	</target>
+ </project>

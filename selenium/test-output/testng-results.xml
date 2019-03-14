@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16015" started-at="2019-01-18T02:45:27Z" finished-at="2019-01-18T02:45:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16015" started-at="2019-01-18T02:45:27Z" finished-at="2019-01-18T02:45:43Z">
+      <class name="selenium.selenium.selenium2Test">
+        <test-method status="PASS" signature="a()[pri:0, instance:selenium.selenium.selenium2Test@7c0e2abd]" name="a" is-config="true" duration-ms="3461" started-at="2019-01-18T10:45:27Z" finished-at="2019-01-18T10:45:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="Af()[pri:0, instance:selenium.selenium.selenium2Test@7c0e2abd]" name="Af" duration-ms="1258" started-at="2019-01-18T10:45:30Z" finished-at="2019-01-18T10:45:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Af -->
+        <test-method status="PASS" signature="Bbe()[pri:0, instance:selenium.selenium.selenium2Test@7c0e2abd]" name="Bbe" duration-ms="5606" started-at="2019-01-18T10:45:32Z" finished-at="2019-01-18T10:45:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bbe -->
+        <test-method status="PASS" signature="za()[pri:0, instance:selenium.selenium.selenium2Test@7c0e2abd]" name="za" duration-ms="5495" started-at="2019-01-18T10:45:37Z" finished-at="2019-01-18T10:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- za -->
+        <test-method status="PASS" signature="GH()[pri:0, instance:selenium.selenium.selenium2Test@7c0e2abd]" name="GH" is-config="true" duration-ms="167" started-at="2019-01-18T10:45:43Z" finished-at="2019-01-18T10:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GH -->
+      </class> <!-- selenium.selenium.selenium2Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
